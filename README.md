@@ -31,7 +31,7 @@
     | POST | /uploadAjax | dataType - json | 파일 업로드를 실행 | JSON 배열 |
     | DELETE |  |  |  |  |
     | PUT |  |  |  |  |
-    | 몰루 | ${org.zerock.upload.path} |  | 업로드된 파일 저장 경로 |  |
+    |    | ${org.zerock.upload.path} |  | 업로드된 파일 저장 경로 |  |
     | GET | /display | String FileName | URL 인코딩된 파일 이름을 파라미터로 받아서, 해당 파일을 byte[]로 만들어서 브라우저로 전송, ‘/display?fileName=xxxx’ |  |
     | POST | /removeFile | String FileName | 원본 파일과 섬네일 파일을 같이 삭제. |  |
     | Request | /movie |  | 영화 등록에 사용될 주소 |  |
